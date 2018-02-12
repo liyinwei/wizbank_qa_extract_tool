@@ -12,9 +12,9 @@ import json
 
 """
 input.json @see browser F12, a json format string from:
-https://xuexi.xxxx.com/app/module/report?mod_id=15952&tkh_id=275446&isMobile=false
+https://xuexi.xxxx.com/app/module/report?mod_id=19911&tkh_id=326518&isMobile=false
 """
-file = open('input.json', 'rb')
+file = open('input.json', 'r', encoding='utf8')
 
 data = json.load(file)
 
